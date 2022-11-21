@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+/* 
+    - table row - linha de tabela
+    - table header - cabeçalho de tabela
+    - table data - dados de tabela     
+    
+    */
+
+table {
+    border-collapse: collapse;
+    margin:auto;
+    width: 500px;
+    
+}
+
+td  {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.turma{
+    background-color: greenyellow;
+}
+
+.serie {
+    background-color: rebeccapurple;
+    color: white;
+    font-weight: bold;
+}
+
+.nome {
+    text-align: left;
+    font-weight: bold;
+    text-indent: 5px;
+}
